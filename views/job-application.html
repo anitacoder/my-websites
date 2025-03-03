@@ -1,0 +1,171 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Responsive Navbar with Expanding Search Bar</title>
+  <link href="https://stackpath.bootstrapcdn.com/bootstrap/4.5.2/css/bootstrap.min.css" rel="stylesheet">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Ga+Maamli&family=Josefin+Sans:ital@0;1&family=Poppins&family=Sofia&display=swap" rel="stylesheet">
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0/css/all.min.css">
+  <link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Material+Symbols+Outlined:opsz,wght,FILL,GRAD@20,400,0,0&icon_names=east" />
+  <link rel="stylesheet" href="/public/css/job-application.css">
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+</head>
+<body>
+  <nav class="navbar navbar-expand-lg navbar-light navbar-custom">
+    <div class="container-fluid">
+      <a class="navbar-brand" href="index.html">
+        <img src="/public/images/ATIRC SEC 1.jpg" alt="Logo" class="header-logo">
+      </a>
+      <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarNav" aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
+        <span class="navbar-toggler-icon"></span>
+      </button>
+      <div class="collapse navbar-collapse" id="navbarNav">
+        <ul class="navbar-nav mr-auto">
+          <li class="nav-item">
+            <a class="nav-link" href="who-we-are.html">Who we are</a>
+          </li>
+          <li class="nav-item dropdown">
+            <a class="nav-link" href="what-we-do.html">What we do 
+              <span class="dropdown-icon"></span> 
+            </a>
+            <ul class="dropdown-menu">
+              <li><a href="#">Overview</a></li>
+              <li><a href="learning.html">Learning</a></li>
+              <li><a href="incubation.html">Incubator</a></li>
+              <li><a href="research.html">Research</a></li>
+              <li><a href="consulting.html">Consulting</a></li>
+            </ul>
+          </li>
+          <li class="nav-item">
+            <a class="nav-link" href="news.html">News</a>
+          </li>
+          <li class="nav-item">
+            <a class="nav-link" href="career.html">Career</a>
+          </li>
+          <li class="nav-item">
+            <a class="nav-link" href="#">Contact</a>
+          </li>
+        </ul>
+        <form class="form-inline my-2 my-lg-0 flex-grow-1 position-relative" style="width: 300px;">
+            <input class="form-control" type="search" placeholder="Search" aria-label="Search" 
+              style="padding-left: 30px; padding-right: 40px; width: 100%;">
+            <i class="fas fa-search position-absolute" 
+              style="right: 418px; top: 62%; transform: translateY(-50%); color: gray; pointer-events: none;"></i>
+          </form>
+      </div>
+    </div>
+  </nav>
+  <h1 class="heading1">Job Application</h1>
+  <div class="container form-container">
+    <p class="sub-heading">Fill in your information Appropriately</p>
+    
+    <form>
+        <div class="form-row">
+            <div class="form-group">
+                <label for="first-name">First name</label>
+                <input type="text" id="first-name" placeholder="First name" required>
+            </div>
+            <div class="form-group">
+                <label for="last-name" class="last-names">Last name</label>
+                <input type="text" id="last-name" placeholder="Last name" required>
+            </div>
+        </div>
+
+        <div class="form-group">
+            <label for="email" class="email-1">Email address</label>
+            <input type="email" id="email" placeholder="Email" required>
+        </div>
+
+        <div class="form-group">
+            <label for="job-position" class="application">Job Position</label>
+            <select id="job-position" required>
+                <option>Select job type here</option>
+                <option>Software Developer</option>
+                <option>Data Analyst</option>
+                <option>UI/UX Designer</option>
+            </select>
+        </div>
+
+        <div class="form-group">
+            <label for="phone-number" class="phone">Phone number</label>
+            <input type="tel" id="phone-number" placeholder="Enter Phone number" required>
+        </div>
+
+        <div class="form-group">
+            <label class="upload">Upload Resume</label>
+            <div class="upload-box">
+                <p class="drag">Drag file here or click the button below</p>
+                <input type="file" id="resume-upload" hidden>
+                <label for="resume-upload" class="upload-btn">Upload file</label>
+            </div>
+        </div>
+
+        <div class="form-group">
+            <label class="upload">Upload Application Letter</label>
+            <div class="upload-box">
+                <p class="drag">Drag file here or click the button below</p>
+                <input type="file" id="letter-upload" hidden>
+                <label for="letter-upload" class="upload-btn">Upload file</label>
+            </div>
+        </div>
+
+        <button type="submit" class="submit-btn">Submit</button>
+    </form>
+</div>
+      <footer class="bg-light py-5 footer">
+        <div class="container">
+          <div class="row">
+            <div class="col-md-3 mb-4">
+              <img src="/public/images/ATIRC_SEC_2_copy-removebg-preview.png" alt="ATIRC Logo" class="mb-3" style="background-color: transparent; width: 50px;">
+              <p class="footer-text">
+                ATIRC stands as a beacon of hope for aspiring tech enthusiasts, entrepreneurs, and researchers aged 15 to 35. Our vision is to become Africa's leading technology incubation and research center, driving advancements in emerging technologies and providing a platform for young innovators to thrive.
+              </p>
+              <div class="link-icons">
+                <a href="#" class="me-3"><i class="fab fa-facebook-f" style="color: #EEEEEE;"></i></a>
+                <a href="#" class="me-3"><i class="fab fa-instagram" style="color: #EEEEEE;"></i></a>
+                <a href="#" class="me-3"><img src="/public/images/x-icon.png" class="x-icon"></a>
+                <a href="#" class="me-3"><i class="fab fa-linkedin-in" style="color: #EEEEEE;"></i></a>
+                <a href="#" class="me-3"><i class="fab fa-tiktok" style="color: #EEEEEE;"></i></a>
+                <a href="#" class="me-3"><i class="fab fa-youtube" style="color: #EEEEEE;"></i></a>
+              </div>
+            </div>
+    
+            <div class="col-md-2 mb-4 product-section">
+              <h5 class="product">Products<span class="dropdown-icon down-icon"></span> </h5>
+              <ul class="list-unstyled">
+                <li><a href="#">Who are we</a></li>
+                <li><a href="#">What we do</a></li>
+                <li><a href="#">News</a></li>
+                <li><a href="#">Career</a></li>
+                <li><a href="#">Contact</a></li>
+              </ul>
+            </div>
+            <div class="col-md-2 mb-4 company-section">
+              <h5 class="company">Company<span class="dropdown-icon down-icon"></span> </h5>
+              <ul class="list-unstyled">
+                <li><a href="#">About</a></li>
+                <li><a href="#">FAQs</a></li>
+                <li><a href="#">News</a></li>
+              </ul>
+              </div>
+            <div class="col-md-2 mb-4 legal-section">
+              <h5 class="legal">Legal<span class="dropdown-icon down-icon"></span> </h5>
+              <ul class="list-unstyled">
+                <li><a href="#">Terms</a></li>
+                <li><a href="#">Privacy</a></li>
+                <li><a href="#">Security</a></li>
+              </ul>
+            </div>
+            <div class="col-md-3 mb-4">
+              <h5 class="contact">Contact</h5>
+              <p class="contact-text">
+                Thank you for your interest in ATIRC. We’re excited to hear from you! Whether you have questions about our programs, partnerships, or opportunities, feel free to reach out. Our team is here to support you and provide more information. We look forward to connecting and collaborating with you soon!
+              </p>
+              <p class="contact-email">Contact <a href="mailto:contact@atirc.com">@ATIRC.com</a></p>
+              <p class="contact-number"><a href="tel:+234700001000">+234 700 001 000</a></p>
+            </div>
+          </div>
+        </div>
+      </footer>

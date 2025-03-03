@@ -1,0 +1,250 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Responsive Navbar with Expanding Search Bar</title>
+  <link href="https://stackpath.bootstrapcdn.com/bootstrap/4.5.2/css/bootstrap.min.css" rel="stylesheet">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Ga+Maamli&family=Josefin+Sans:ital@0;1&family=Poppins&family=Sofia&display=swap" rel="stylesheet">
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0/css/all.min.css">
+  <link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Material+Symbols+Outlined:opsz,wght,FILL,GRAD@20,400,0,0&icon_names=east" />
+  <link rel="stylesheet" href="/public/css/learning.css">
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+</head>
+<body>
+  <nav class="navbar navbar-expand-lg navbar-light navbar-custom">
+    <div class="container-fluid">
+      <a class="navbar-brand" href="index.html">
+        <img src="/public/images/ATIRC SEC 1.jpg" alt="Logo" class="header-logo">
+      </a>
+      <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarNav" aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
+        <span class="navbar-toggler-icon"></span>
+      </button>
+      <div class="collapse navbar-collapse" id="navbarNav">
+        <ul class="navbar-nav mr-auto">
+          <li class="nav-item">
+            <a class="nav-link" href="who-we-are.html">Who we are</a>
+          </li>
+          <li class="nav-item dropdown">
+            <a class="nav-link" href="what-we-do.html">What we do 
+              <span class="dropdown-icon"></span> <!-- Custom triangle icon -->
+            </a>
+            <ul class="dropdown-menu">
+              <li><a href="#">Overview</a></li>
+              <li><a href="#">Learning</a></li>
+              <li><a href="incubation.html">Incubator</a></li>
+              <li><a href="research.html">Research</a></li>
+              <li><a href="consulting.html">Consulting</a></li>
+            </ul>
+          </li>
+          <li class="nav-item">
+            <a class="nav-link" href="news.html">News</a>
+          </li>
+          <li class="nav-item">
+            <a class="nav-link" href="career.html">Career</a>
+          </li>
+          <li class="nav-item">
+            <a class="nav-link" href="contact.html">Contact</a>
+          </li>
+        </ul>
+        <form class="form-inline my-2 my-lg-0 flex-grow-1 position-relative" style="width: 300px;">
+            <input class="form-control" type="search" placeholder="Search" aria-label="Search" 
+              style="padding-left: 30px; padding-right: 40px; width: 100%;">
+            <i class="fas fa-search position-absolute" 
+              style="right: 418px; top: 62%; transform: translateY(-50%); color: gray; pointer-events: none;"></i>
+          </form>
+      </div>
+    </div>
+  </nav>
+  <div class="landing-section">
+    <div class="landing-img">
+      <div class="landing-text">
+        <h1 class="landing-page-heading">Learning Courses</h1>
+        <p class="landing-page-para">Home <i class="fas fa-arrow-right"></i> What we do <i class="fas fa-arrow-right"></i> Learning</p>
+      </div>
+    </div>
+</div>
+<p class="down-paragraph">ATIRC’s IT training programs offer hands-on learning across <br>diverse technology domains, including Cloud Computing, AI, <br>Cybersecurity, Data Science, and more. Our curriculum is <br>designed to equip students and professionals with practical<br> skills, preparing them to excel in today’s fast-evolving tech <br>industry and tackle real-world challenges confidently</p>
+
+
+<div class="container my-5">
+    <div class="row g-4">
+        <!-- Cloud Computing -->
+        <div class="col-md-6">
+            <div class="course-card0">
+                <div class="image-container"></div>
+                <div class="course-body">
+                    <h5 class="course-title">Cloud Computing</h5>
+                    <p class="course-text">Our Cloud Computing and DevOps training focuses on <br>streamlining software development and operations.<br> Participants learn key concepts like Continuous Integration (CI), <br>Continuous Deployment (CD), and cloud infrastructure <br>management. The course is designed to equip professionals <br>with the skills to deploy scalable applications and ensure <br>seamless integration and automation</p>
+                    <a href="cloud-computing-devops.html" class="apply-link">Apply here <i class="fas fa-arrow-right"></i></a>
+                </div>
+            </div>
+        </div>
+
+        <!-- Cyber Security -->
+        <div class="col-md-6">
+            <div class="course-card7">
+                <div class="image-container"></div>
+                <div class="course-body">
+                    <h5 class="course-title">Cyber Security</h5>
+                    <p class="course-text">Our Cybersecurity training program focuses on protecting <br>systems, networks, and data from threats. Learners gain <br>expertise in security best practices, risk management, ethical<br> hacking, encryption techniques, and more. The course prepares <br>individuals to safeguard digital assets and respond effectively <br>to security breaches in today’s interconnected world.</p>
+                    <a href="cyber-security.html" class="apply-link">Apply here <i class="fas fa-arrow-right"></i></a>
+                </div>
+            </div>
+        </div>
+
+        <!-- Software Development -->
+        <div class="col-md-6">
+            <div class="course-card1">
+                <div class="image-container"></div>
+                <div class="course-body">
+                    <h5 class="course-title">Software Development (Full Stack Development)</h5>
+                    <p class="course-text">In this course, participants gain a deep understanding of software <br>development methodologies like Agile and Waterfall. The training <br>covers the entire software development lifecycle (SDLC), from <br>design and coding to testing and deployment. Learners also build <br>proficiency in Full Stack Development, handling both backend and <br>frontend programming tasks.</p>
+                    <a href="software-engineering.html" class="apply-link">Apply here <i class="fas fa-arrow-right"></i></a>
+                </div>
+            </div>
+        </div>
+
+        <!-- Project Management -->
+        <div class="col-md-6">
+            <div class="course-card-1">
+                <div class="image-container"></div>
+                <div class="course-body">
+                    <h5 class="course-title">Project Management</h5>
+                    <p class="course-text">This course focuses on IT project management principles,<br> preparing participants to manage and oversee the successful <br>delivery of technology projects. Students learn to navigate <br>project life cycles, budgets, timelines, and resources, ensuring <br>efficient planning, execution, and deployment of IT products <br>and services in diverse organizational settings.</p>
+                    <a href="product-management.html" class="apply-link">Apply here <i class="fas fa-arrow-right"></i></a>
+                </div>
+            </div>
+        </div>
+
+        <!-- Computer Networking -->
+        <div class="col-md-6">
+            <div class="course-card2">
+                <div class="image-container"></div>
+                <div class="course-body">
+                    <h5 class="course-title">Computer Networking</h5>
+                    <p class="course-text">This program provides foundational to advanced knowledge of <br>networking principles and Internet of Things (IoT) technologies. <br>Students learn about network configurations, protocols, and IoT <br>integration, preparing them to design and maintain efficient,<br> secure, and scalable networks and leverage the power of <br>connected devices for various applications.</p>
+                    <a href="networking.html" class="apply-link">Apply here <i class="fas fa-arrow-right"></i></a>
+                </div>
+            </div>
+        </div>
+
+        <!-- UI/UX & Graphic Design -->
+        <div class="col-md-6">
+            <div class="course-card-2">
+                <div class="image-container"></div>
+                <div class="course-body">
+                    <h5 class="course-title">Design (UI/UX) / Animation / Graphic Design</h5>
+                    <p class="course-text">This program focuses on the principles of user interface (UI) and user <br>experience (UX) design, along with graphic design. Students learn to <br>create intuitive, aesthetically pleasing interfaces while optimizing user <br>interactions. The course also covers visual design techniques,<br> empowering learners to design impactful and functional digital <br>experiences for web and mobile platforms</p>
+                    <a href="UI-UX.html" class="apply-link">Apply here <i class="fas fa-arrow-right"></i></a>
+                </div>
+            </div>
+        </div>
+
+        <!-- DevOps / CI/CD -->
+        <div class="col-md-6">
+            <div class="course-card8">
+                <div class="image-container"></div>
+                <div class="course-body">
+                    <h5 class="course-title">DevOps / CI & CD</h5>
+                    <p class="course-text">Our Cloud Computing and DevOps training focuses on streamlining <br>software development and operations. Participants learn key <br>concepts like Continuous Integration (CI), Continuous Deployment <br>(CD), and cloud infrastructure management. The course is <br>designed to equip professionals with the skills to deploy scalable <br>applications and ensure seamless integration and automation</p>
+                    <a href="cloud-computing-devops.html" class="apply-link">Apply here <i class="fas fa-arrow-right"></i></a>
+                </div>
+            </div>
+        </div>
+
+        <!-- AI / Machine Learning -->
+        <div class="col-md-6">
+            <div class="course-card3">
+                <div class="image-container"></div>
+                <div class="course-body">
+                    <h5 class="course-title">Artificial Intelligence / Machine Learning / Data Science</h5>
+                    <p class="course-text">This program introduces participants to the world of AI and ML.<br> Learners explore fundamental algorithms, data processing <br>techniques, and model building, applying AI/ML to real-world <br>challenges. With a focus on practical applications in industries such<br> as healthcare, finance, and transportation, this training is ideal for <br>aspiring AI professionals.</p>
+                    <a href="machine-learning.html" class="apply-link">Apply here <i class="fas fa-arrow-right"></i></a>
+                </div>
+            </div>
+        </div>
+
+        <!-- Data Analytics -->
+        <div class="col-md-6">
+            <div class="course-card9">
+                <div class="image-container"></div>
+                <div class="course-body">
+                    <h5 class="course-title">Data Analytics / Big Data</h5>
+                    <p class="course-text">ATIRC’s data-focused training covers techniques for extracting <br>valuable insights from large datasets. Students learn how to <br>apply data analytics, data science, and mining methods to <br>drive business decisions. The course also emphasizes Big Data <br>tools and platforms, enabling participants to work with complex <br>data sets and uncover patterns.</p>
+                    <a href="Data-Analysis.html" class="apply-link">Apply here <i class="fas fa-arrow-right"></i></a>
+                </div>
+            </div>
+        </div>
+
+        <!-- IoT / Robotics -->
+        <div class="col-md-6">
+            <div class="course-card4">
+                <div class="image-container"></div>
+                <div class="course-body">
+                    <h5 class="course-title">IoT / Robotics</h5>
+                    <p class="course-text">Our Robotics and Embedded Systems training offers in-depth <br>knowledge of robotic systems and specialized computing <br>devices. Participants explore the design, construction, and <br>operation of robots for various industries, while also learning <br>about embedded systems that perform dedicated tasks in <br>larger mechanical or electrical systems, shaping the future of <br>automation.</p>
+                    <a href="robotics.html" class="apply-link">Apply here <i class="fas fa-arrow-right"></i></a>
+                </div>
+            </div>
+        </div>
+    </div>
+    </div>
+
+  <footer class="bg-light py-5 footer">
+    <div class="container">
+      <div class="row">
+        <div class="col-md-3 mb-4">
+          <img src="/public/images/ATIRC_SEC_2_copy-removebg-preview.png" alt="ATIRC Logo" class="mb-3" style="background-color: transparent; width: 50px;">
+          <p class="footer-text">
+            ATIRC stands as a beacon of hope for aspiring tech enthusiasts, entrepreneurs, and researchers aged 15 to 35. Our vision is to become Africa's leading technology incubation and research center, driving advancements in emerging technologies and providing a platform for young innovators to thrive.
+          </p>
+          <div class="link-icons">
+            <a href="#" class="me-3"><i class="fab fa-facebook-f" style="color: #EEEEEE;"></i></a>
+            <a href="#" class="me-3"><i class="fab fa-instagram" style="color: #EEEEEE;"></i></a>
+            <a href="#" class="me-3"><img src="/public/images/x-icon.png" class="x-icon"></a>
+            <a href="#" class="me-3"><i class="fab fa-linkedin-in" style="color: #EEEEEE;"></i></a>
+            <a href="#" class="me-3"><i class="fab fa-tiktok" style="color: #EEEEEE;"></i></a>
+            <a href="#" class="me-3"><i class="fab fa-youtube" style="color: #EEEEEE;"></i></a>
+          </div>
+        </div>
+        <div class="col-md-2 mb-4 product-section">
+          <h5 class="product">Products</h5>
+          <ul class="list-unstyled">
+            <li><a href="#">Who are we</a></li>
+            <li><a href="#">What we do</a></li>
+            <li><a href="#">News</a></li>
+            <li><a href="#">Career</a></li>
+            <li><a href="#">Contact</a></li>
+          </ul>
+        </div>
+        <div class="col-md-2 mb-4 company-section">
+          <h5 class="company">Company</h5>
+          <ul class="list-unstyled">
+            <li><a href="#">About</a></li>
+            <li><a href="#">FAQs</a></li>
+            <li><a href="#">News</a></li>
+          </ul>
+        </div>
+        <div class="col-md-2 mb-4 legal-section">
+          <h5 class="legal">Legal</h5>
+          <ul class="list-unstyled">
+            <li><a href="#">Terms</a></li>
+            <li><a href="#">Privacy</a></li>
+            <li><a href="#">Security</a></li>
+          </ul>
+        </div>
+        <div class="col-md-3 mb-4">
+          <h5 class="contact">Contact</h5>
+          <p class="contact-text">
+            Thank you for your interest in ATIRC. We’re excited to hear from you! Whether you have questions about our programs, partnerships, or opportunities, feel free to reach out. Our team is here to support you and provide more information. We look forward to connecting and collaborating with you soon!
+          </p>
+          <p class="contact-email">Contact <a href="mailto:contact@atirc.com">@ATIRC.com</a></p>
+          <p class="contact-number"><a href="tel:+234700001000">+234 700 001 000</a></p>
+        </div>
+      </div>
+    </div>
+  </footer>
+</body>
+</html>
