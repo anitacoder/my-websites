@@ -207,7 +207,11 @@ body {
     font-weight: 600;
     position: relative;
     top: -20px;
-    left: -40px;
+    left: -70px;
+  }
+
+  .icons {
+    display: none;
   }
 
   .fa-arrow-right {
@@ -417,12 +421,44 @@ iframe {
     margin-top: 20px;
   }
 
+  .second-para {
+    display: none;
+  }
+
 
 
 @media (max-width: 480px) {
-    body {
-      background-color: red;
-    }
+    .landing-page-heading {
+        color: #ffffff !important;
+        font-size: 38px !important;
+        line-height: 72px;
+        font-weight: 700;
+        margin-top: -270px;
+        margin-left: 50px;
+      }
+
+      .landing-page-para {
+        margin-left: -40px;
+      }
+
+      .first {
+        position: relative;
+        left: -35px !important;
+        width: 335%;
+      }
+
+
+      .last {
+        position: relative;
+        top: 70px !important;
+        left: -288px !important;
+        width: 335%;
+      }
+      .btn-submit {
+        margin-top: 70px;
+        margin-left: 145px !important;
+      }
+
     .search-bar {
       display: none; 
       width: none; 
@@ -430,48 +466,230 @@ iframe {
     .search-icon {
       display: block; 
     }
+
+    .navbar-nav {
+        position: relative;
+        left: 210px !important;
+      }
+   
+  
   }
   @media (max-width: 768px) {
-    body {
-      background-color: blue;
+    .landing-section {
+        background: linear-gradient(180.44deg, rgba(14, 126, 169, 0) -1.53%, #000000 112.25%),
+        url('/public/images/contact-landing-img.png') no-repeat center center/cover;
+         height: 363px;
+         width: 505.12px; 
+         margin-top: -10px;
     }
-      .landing-content {
-          max-width: 90%;
-          padding: 15px;
+
+    .landing-text {
+        margin-top: 440px;
+        margin-left: -180px;
       }
-  
-      .landing-content h1 {
-          font-size: 24px;
+    
+      .landing-page-heading {
+        color: #ffffff !important;
+        font-size: 38px !important;
+        line-height: 72px;
+        font-weight: 700;
+        margin-top: -270px;
+        margin-left: 50px;
       }
-  
-      .landing-content p {
-          font-size: 14px;
+
+      .landing-page-para {
+        margin-left: 20px !important;
       }
-  
+
+
+    .first-para {
+        display: none;
+    }
       .learn-more-btn {
           font-size: 16px;
           padding: 10px 20px;
       }
-      .Explore-img {
-        height: 70vh; 
-        background-size: contain; 
-        background-attachment: scroll; 
-      }
-      
-      .explore-text {
-        font-size: 30px; 
-        line-height: 45px;
-      }
-    
-      .explore-para {
-        font-size: 20px;
-        line-height: 30px;
-      }
-  
       .footer {
         text-align: center;
       }
       .product-section, .company-section, .legal-section, .contact {
         margin-bottom: 20px;
       }
+
+      .navbar-nav {
+        position: relative;
+        left: 260px;
+      }
+
+      .search-bars {
+        display: none;
+      }
+
+      .col-md-4 p {
+        display: none !important;
+      }
+
+      .second-para {
+        display: block;
+        text-align: center !important;
+        color: #8B8B8B;
+      }
+
+      .send-message {
+        margin-left: 110px;
+      }
+
+      .form-control {
+        margin-left: 40px;
+        width: 290%;
+      }
+      
+      .first {
+        position: relative;
+        left: -30px;
+        width: 335%;
+      }
+
+
+      .last {
+        position: relative;
+        top: 70px;
+        left: -305px;
+        width: 335%;
+      }
+
+      .email{
+        position: relative;
+        top: 60px;
+        left: -155px;
+      }
+
+      .message {
+        position: relative;
+        top: 60px;
+        left: -155px;
+      }
+
+      .customer-care-img {
+        margin-left: -15px;
+        margin-top: -98px;
+      }
+
+      .btn-submit {
+        margin-top: 70px;
+        margin-left: 175px;
+      }
+
+      iframe {
+        max-width: 110%;
+        border-radius: 10px;
+        height: 298px;
+        box-shadow: 0px 5px 15px rgba(0, 0, 0, 0.1);
+        margin-top: 20px;
+    }    
+
+      .footer-text {
+        display: block;
+        position: relative;
+        left: 165px;
+        font-size: 9px;
+        margin-right: 190px;
+        text-align: justify;
+        width: 25%;
+        margin-top: 10px;
+        line-height: 15px;
+      }
+
+      .footer-text1{
+        display: none !important;
+      }
+
+      .footer-img {
+        margin-left: -800px !important;
+        width: 10% !important;
+      }
+
+    .contact-text {
+      display: block;
+      position: relative;
+      left: 160px;
+      font-size: 11px;
+      margin-right: 190px;
+      text-align: justify;
+      width: 25%;
+      line-height: 20px;
+    }
+      .link-icons {
+        position: relative;
+        right: 550px;
+      }
+  
+      .mb-3 {
+        margin: auto;
+        width: 30% !important;
+      }
+      .product {
+        margin-right: 1110px;
+      }
+  
+      .company {
+        margin-right: 1110px;
+      }
+  
+      .legal{
+        margin-right: 1151px;
+      }
+      .contact {
+        margin-right: 1121px;
+      }
+      
+      .contact-email {
+        right: 540px;
+        white-space: nowrap;
+        position: relative;
+      }
+  
+      .contact-number {
+        right: 560px;
+        position: relative;
+        white-space: nowrap;
+      }
+  
+      .list-unstyled {
+        display: none;
+        flex-direction: column;
+        background: white;
+        position: absolute;
+        top: 50px;
+        right: 10px;
+        border: 1px solid #ccc;
+        padding: 10px;
+        width: 150px;
+        box-shadow: 0px 4px 6px rgba(0, 0, 0, 0.1);
+      }
+    
+      .icons {
+        display: block; 
+        border-top: 8px solid #000000;
+        position: relative;
+        top:-25px;
+        left: 540px;
+        font-size: 40px;
+
+    }
+
+      .footer-text1 {
+        display: block !important; 
+        font-size: 13px;
+        
+      }
+
+      .contact-text1 {
+        display: none !important;  
+      }
+      
+    }
+    
+    .list-unstyled.active {
+      display: flex;
   }

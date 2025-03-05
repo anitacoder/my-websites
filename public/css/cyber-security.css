@@ -715,10 +715,74 @@ body {
 
 
 
-@media (max-width: 480px) {
-    body {
-      background-color: red;
-    }
+  @media (max-width: 480px) {
+    .navbar-nav {
+        position: relative;
+        left: 210px !important;
+      }
+
+      .money-1 {
+        position: relative;
+        top: -285px !important;
+     }
+
+      .money-2 {
+        margin-left: -15px !important;
+        position: relative;
+        top: -255px;
+        font-size: 26px !important;
+     }
+
+     .money-7 {
+        margin-left: -495px;
+        position: relative;
+        top: -340px;
+        font-size: 36px;
+     }
+
+     .money-8 {
+        margin-left: -15px !important;
+        position: relative;
+        top: -345px;
+        font-size: 22px;
+     }
+     .section-2-text-1 {
+        font-size: 15px !important;
+     }
+
+     .curriculum {
+        margin-top: 95px;
+        margin-left: -685px !important;
+     }
+
+     .curriculum-1 {
+        margin-top: 95px;
+        margin-left: -585px !important;
+     }
+     .money-3 {
+        margin-left: 245px;
+        position: relative;
+        top: -290px !important;
+        font-size: 33px;
+     }
+
+     .money-4 {
+        margin-left: -60px !important;
+        position: relative;
+        top: -275px;
+        font-size: 20px;
+     }
+
+     .section-2text-1 {
+        font-size: 17px !important;
+        top: -330px;
+     }
+
+     .curriculum-2 {
+        margin-top: 95px;
+        margin-left: -585px !important;
+     }
+
     .search-bar {
       display: none; 
       width: none; 
@@ -726,49 +790,328 @@ body {
     .search-icon {
       display: block; 
     }
+
+    .link-icons {
+        margin-left: 40px !important;
+    }
+
+    .contact-email{
+        margin-left: 30px !important;
+    }
+
+    .contact-number{
+        margin-left: 30px !important;
+    }
+
+    .down-footer {
+        margin-top: -190px;
+    }
   }
   @media (max-width: 768px) {
-    body {
-      background-color: blue;
+    .cyber-security{
+        white-space: nowrap;
+        font-size: 29px;
     }
-      .landing-content {
-          max-width: 90%;
-          padding: 15px;
+
+    .navbar-nav {
+        position: relative;
+        left: 260px;
       }
-  
-      .landing-content h1 {
-          font-size: 24px;
-      }
-  
-      .landing-content p {
-          font-size: 14px;
-      }
-  
-      .learn-more-btn {
-          font-size: 16px;
-          padding: 10px 20px;
-      }
-      .Explore-img {
-        height: 70vh; 
-        background-size: contain; 
-        background-attachment: scroll; 
-      }
-      
-      .explore-text {
-        font-size: 30px; 
-        line-height: 45px;
-      }
-    
-      .explore-para {
+
+    .form-control {
+        display: none;
+    }
+
+    .cyber-text {
+        display: none !important;
+    }
+     .landing-section2 {
+        display: block;
+     }
+
+     .landing-img {
+        margin-top: 40px;
+        margin-left: -110px;
+        width: 109%;
+     }
+
+     .section-1 {
+        display: block;
+     }
+
+     .beginner {
+        margin-left: 120px;
+        position: relative;
+        font-size: 21px;
+        top: -145px;
+     }
+
+     .icon-large {
+        margin-left: -60px;
+     }
+
+     .weeks {
+        margin-left: 120px;
+        position: relative;
+        font-size: 21px;
+        top: -225px;
+     }
+
+     .icon-large2 {
+        margin-left: -120px;
+        position: relative;
+        top: -110px;
+     }
+
+     .onsite {
+        margin-left: 120px;
+        position: relative;
+        font-size: 21px;
+        top: -265px;
+     }
+
+     .icon-large3 {
+        margin-left: -105px;
+        position: relative;
+        top: -175px;
+     }
+
+     .section-2text-1 {
+        font-size: 21px;
+        line-height: 33px;
+        position: relative;
+        top: -295px;
+        white-space: nowrap;
+        margin-left: 15px;
+        font-weight: 400;
+     }
+
+     .money-1 {
+        margin-left: 185px;
+        position: relative;
+        top: -275px;
+        font-size: 36px;
+     }
+
+     .money-2 {
+        margin-left: 25px;
+        position: relative;
+        top: -278px;
+        font-size: 26px;
+     }
+
+     .curriculum {
+        margin-left: -702px;
+        margin-top: 119px;
+     }
+
+     .curriculum-list {
+        font-size: 18px;
+     }
+
+     .section-4 {
+        display: block;
+     }
+
+     .beginner1 {
+        margin-left: 120px;
+        position: relative;
+        font-size: 36px;
+        top: -275px;
+     }
+
+     .icon-large-1 {
+        margin-left: -60px;
+        position: relative;
+        top: -155px;
+     }
+
+     .weeks1 {
+        margin-left: 120px;
+        position: relative;
+        font-size: 36px;
+        top: -335px;
+     }
+
+     .icon-large-2 {
+        margin-left: -120px;
+        position: relative;
+        top: -221px;
+     }
+
+     .onsite1 {
+        margin-left: 120px;
+        position: relative;
+        font-size: 31px;
+        top: -335px;
+     }
+
+     .icon-large-3 {
+        margin-left: -111px;
+        position: relative;
+        top: -251px;
+     }
+
+     .section-2-text-1 {
+        font-size: 17px;
+        line-height: 33px;
+        position: relative;
+        top: -415px;
+        white-space: nowrap;
+        margin-left: 15px;
+        font-weight: 400;
+     }
+
+     .money-7 {
+        margin-left: -445px;
+        position: relative;
+        top: -340px;
+        font-size: 36px;
+     }
+
+     .money-8 {
+        margin-left: 25px;
+        position: relative;
+        top: -325px;
+        font-size: 22px;
+     }
+
+     .curriculum-1 {
+        margin-top: 95px;
+        margin-left: -595px;
+     }
+
+     .section-5 {
+        display: block;
+     }
+
+     .money-3 {
+        margin-left: 245px;
+        position: relative;
+        top: -280px;
+        font-size: 33px;
+     }
+
+     .money-4 {
+        margin-left: -1px;
+        position: relative;
+        top: -275px;
         font-size: 20px;
-        line-height: 30px;
-      }
-  
-      .footer {
+     }
+
+     .section-2text-1 {
+        font-size: 19px;
+        top: -330px;
+     }
+
+     .curriculum-2 {
+        margin-top: 149px;
+        margin-left: -620px;
+     }
+
+     .curriculum-list1 {
+        font-size: 15px;
+     }
+
+     .student-story {
+        font-size: 34px;
+        margin-left: -30px !important;
+     }
+
+     .footer-img {
+        margin-left: 50px !important;
+        width: 80%;
+        
+     }
+
+     .footer {
         text-align: center;
       }
       .product-section, .company-section, .legal-section, .contact {
         margin-bottom: 20px;
       }
+  
+      .link-icons {
+        position: relative;
+        right: 170px;
+      }
+  
+      .mb-3 {
+        margin: auto;
+        width: 30% !important;
+      }
+      .product {
+        margin-right: 790px;
+      }
+  
+      .company {
+        margin-right: 790px;
+      }
+  
+      .legal{
+        margin-right: 790px;
+      }
+      .contact {
+        margin-right: 790px;
+      }
+      
+      .contact-email {
+        right: 160px;
+        white-space: nowrap;
+        position: relative;
+      }
+  
+      .contact-number {
+        right: 180px;
+        position: relative;
+        white-space: nowrap;
+      }
+  
+      .list-unstyled {
+        display: none;
+        flex-direction: column;
+        background: white;
+        position: absolute;
+        top: 50px;
+        right: 10px;
+        border: 1px solid #ccc;
+        padding: 10px;
+        width: 150px;
+        box-shadow: 0px 4px 6px rgba(0, 0, 0, 0.1);
+      }
+    
+      .icons {
+          display: block; 
+          border-top: 8px solid #000000;
+          margin-left: 370px;
+          position: relative;
+          top:-25px;
+          font-size: 40px;
+  
+      }
+
+      .footer-text1 {
+        display: block !important; 
+        font-size: 13px;
+        
+      }
+
+      .contact-text1 {
+        display: block !important; 
+        font-size: 13px;
+        margin-right: 90px;
+        text-align: justify;
+        
+      }
+      
+    
+    .list-unstyled.active {
+      display: flex;
+  
+  }  
+  .down-footer {
+    margin-top: -190px;
+}
+      
   }
   

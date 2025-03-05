@@ -967,48 +967,131 @@ body {
 
 
 @media (max-width: 480px) {
-    body {
-      background-color: red;
-    }
-
     .landing-text {
       margin-top: 530px !important;
       margin-left: -190px !important;
       font-size: 16px !important;
   }
   .landing-page-heading {
-      color: #FFFFFF;
+      color: #FFFFFF !;
       font-size: 1px !important; 
       line-height: 42px;
       font-weight: 700;
       position: relative;
-      top:10px;
+      top:-75px;
+      left: -40px;
   }
 
   .landing-page-para {
-      color: #FFFFFF;
+      color: #FFFFFF !important;
       font-size: 18px !important; 
       line-height: 28px;
       font-weight: 600;
       position: relative;
-      left: 9px;
-      top: -20px;
+      top:-95px !important;
+      left: -20px !important;
+  }
+
+  .fa-arrow-right {
+    font-size: 25px !important;
+    position: relative;
+    top:3px !important;
+  }
+
+  .clap-img {
+    position: relative;
+    left: 58px;
+  }
+
+
+  .story-para {
+    position: relative;
+    top: 390px;
+    text-align: center;
+  }
+
+  .story-texts {
+    font-size: 36px !important;
+  }
+
+  .story-text {
+    font-size: 10px !important;
+  }
+
+  .our-story-para {
+    font-size: 10px !important;
+    position: relative;
+    left: 10px;
+  }
+
+  .section1-text {
+    font-size: 23px !important;
+    line-height: 42px;
+  }
+
+  .section1-para {
+    font-size: 11px !important;
+  }
+
+  .card {
+    margin-left: 50px !important;
+  }
+
+  .card4 {
+    margin-left: 10px !important;
+  }
+
+  .card1 {
+    margin-left: 470px !important;
+  }
+
+  .card2 {
+    margin-left: 440px !important;
+  }
+
+  .card3 {
+    margin-left: -370px !important;
+  }
+
+  .team-member1 {
+    margin-left: -190px;
+  }
+
+  .mission {
+    margin-left: 50px;
+  }
+
+  .link-icons {
+    margin-left: 50px;
+  }
+
+  .contact-text1 {
+    font-size: 13px !important;
+    white-space: nowrap !important;
+  }
+
+  .contact-email {
+    margin-left: 45px;
+  }
+
+  .contact-number {
+    margin-left: 45px;
+  }
+
+  .navbar-nav {
+    position: relative;
+    left: 220px !important;
   }
 
 }
   @media (max-width: 768px) {
-      .landing-content {
-          max-width: 90%;
-          padding: 15px;
-      }
-  
-      .landing-content h1 {
-          font-size: 24px;
-      }
-  
-      .landing-content p {
-          font-size: 14px;
-      }
+    .landing-section {
+      background: linear-gradient(180.44deg, rgba(14, 126, 169, 0) -1.53%, #000000 112.25%),
+      url('/public/images/who-we-are-landing-page2.jpeg') no-repeat center center/cover;
+       height: 363px;
+       width: 505.12px; 
+       margin-top: -10px;
+  }
   
       .learn-more-btn {
           font-size: 16px;
@@ -1036,27 +1119,30 @@ body {
   }
 
   .landing-page-heading {
-    color: #FFFFFF;
+    color: black !important;
     font-size: 38px !important;
     line-height: 72px;
     font-weight: 700;
+    margin-top: -270px;
+    margin-left: 50px;
+
   }
   
   .landing-page-para {
-    color: #FFFFFF;
+    color: black !important;
     font-size: 22px !important;
     line-height: 36px;
     font-weight: 600;
     position: relative;
-    left: 9px;
-    top: -30px;
+    left: 20px;
+    top: -35px;
   }
 
   .fa-arrow-right {
     color: #F23846;
-    font-size: 50px;
+    font-size: 30px;
     position: relative;
-    top:11px;
+    top:5px;
   }
 
       .clap-img {
@@ -1083,7 +1169,7 @@ body {
       }
 
       .story-texts {
-        font-size: 36px !important;
+        font-size:34px;
         text-align: center; /* Center the text */
         max-width: 600px; /* Limit the width for better readability */
         margin: 0 auto; /* Center within its container */
@@ -1093,11 +1179,11 @@ body {
       }
    
       .story-text {
-        font-size: 13px !important;
+        font-size: 13px;
       }
 
       .our-story-para {
-        font-size: 11px !important;
+        font-size: 11px;
         margin-left: -130px;
       }
 
@@ -1240,9 +1326,7 @@ body {
       .contact {
         margin-right: 790px;
       }
-
-  
-  
+      
       .contact-email {
         right: 160px;
         white-space: nowrap;
@@ -1268,8 +1352,8 @@ body {
         box-shadow: 0px 4px 6px rgba(0, 0, 0, 0.1);
       }
     
-      .dropdown-icon {
-          display: inline-block; 
+      .icons {
+          display: block; 
           border-top: 8px solid #000000;
           margin-left: 370px;
           position: relative;

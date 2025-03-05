@@ -226,6 +226,7 @@ body {
     white-space: nowrap;
   }
 
+
   .card1 {
     border: 1px solid #EEEEEE;
     border-radius: 12px;
@@ -466,7 +467,38 @@ body {
     color: #F23846;
   }
 
+  .learning-img {
+    background-image: url("/public/images/girl-studying-img.jpeg");
+    height: 305px;
+    width: 100%;
+    background-size: cover;
+    background-repeat: no-repeat;
+  }
 
+  .research-img {
+    background-image: url("/public/images/open-book-light-img.jpeg");
+    height: 305px;
+    width: 100%;
+    background-size: cover;
+    background-repeat: no-repeat;
+  }
+
+  .incubation-img {
+    background-image: url("/public/images/incubation2.png");
+    height: 305px;
+    width: 100%;
+    background-size: cover;
+    background-repeat: no-repeat;
+  }
+
+  .consulting-img {
+    background-image: url("/public/images/consulting-img.jpeg");
+    height: 305px;
+    width: 100%;
+    background-size: cover;
+    background-repeat: no-repeat;
+  }
+  
 
 .footer {
     margin-top: 92px;
@@ -525,12 +557,13 @@ body {
     margin-top: 20px;
   }
 
+  .icons {
+    display: none;
+  }
+
 
 
 @media (max-width: 480px) {
-    body {
-      background-color: red;
-    }
     .search-bar {
       display: none; 
       width: none; 
@@ -538,11 +571,145 @@ body {
     .search-icon {
       display: block; 
     }
+
+    .section1-para {
+      font-size: 7px !important;
+      text-align: center;
+    }
+
+    .card-text {
+      font-size: 14px !important;
+    }
+
+    .contact-email {
+      margin-left: 50px;
+    }
+
+    .contact-number {
+      margin-left: 50px;
+    }
+
+    .link-icons {
+      margin-left: 40px;
+    }
+
+    .navbar-nav {
+      position: relative;
+      left: 220px !important;
+    }
   }
   @media (max-width: 768px) {
-    body {
-      background-color: blue;
-    }
+    .landing-section {
+      background: linear-gradient(180.44deg, rgba(14, 126, 169, 0) -1.53%, #000000 112.25%),
+       url('/public/images/land-img-2.jpeg') no-repeat center center/cover;
+       height: 363px;
+       width: 505.12px; 
+       margin-top: -10px;
+  }
+
+  .form-control {
+    display: none;
+  }
+
+  .nav-item {
+    white-space: nowrap;
+  }
+
+
+  .navbar-nav {
+    position: relative;
+    left: 260px;
+  }
+
+  .what-we-do {
+    white-space: nowrap;
+  }
+
+  .landing-text {
+    margin-top: 440px;
+    margin-left: -240px;
+  }
+
+  .landing-page-heading {
+    color: #ffffff !important;
+    font-size: 38px !important;
+    line-height: 72px;
+    font-weight: 700;
+    margin-top: -270px;
+    margin-left: 50px;
+
+  }
+  
+  .landing-page-para {
+    color: #ffffff !important;
+    font-size: 22px !important;
+    line-height: 36px;
+    font-weight: 600;
+    position: relative;
+    left: 20px;
+    top: -35px;
+  }
+
+  .fa-arrow-right {
+    color: #F23846;
+    font-size: 30px;
+    position: relative;
+    top:5px;
+  }
+
+  .card1 {
+    margin-top: 10px;
+  }
+
+  .card2 {
+    margin-top: 35px;
+  }
+
+  .more-link {
+    font-size: 23px;
+  }
+
+  .more-arrow {
+    top:3px;
+  }
+
+  .learning-img {
+    background-image: url("/public/images/learning-img-2.jpeg");
+    height: 305px;
+    width: 100%;
+    background-size: cover;
+    background-repeat: no-repeat;
+  }
+
+  .research-img {
+    background-image: url("/public/images/research-2.jpeg");
+    height: 305px;
+    width: 100%;
+    background-size: cover;
+    background-repeat: no-repeat;
+  }
+
+  .incubation-img {
+    background-image: url("/public/images/incubation3.jpeg");
+    height: 305px;
+    width: 100%;
+    background-size: cover;
+    background-repeat: no-repeat;
+  }
+
+  .card4 {
+    display: none;
+  }
+
+  .bottom-img {
+    position: relative;
+    left: 120px;
+    width: 50%;
+  }
+
+  .bottom-banner {
+    width: 95%;
+  }
       .landing-content {
           max-width: 90%;
           padding: 15px;
@@ -575,6 +742,23 @@ body {
         font-size: 20px;
         line-height: 30px;
       }
+
+      .section1-text {
+        font-size: 25px;
+      }
+
+      .section1-para {
+        font-size: 8px;
+        line-height: 14px;
+      }
+
+      .card-text1 {
+        font-size: 15px;
+      }
+
+      .card-text {
+        font-size: 15px;
+      }
   
       .footer {
         text-align: center;
@@ -582,5 +766,84 @@ body {
       .product-section, .company-section, .legal-section, .contact {
         margin-bottom: 20px;
       }
-  }
+
+      .link-icons {
+        position: relative;
+        right: 177px;
+      }
   
+      .mb-3 {
+        margin: auto;
+        width: 30% !important;
+      }
+      .product {
+        margin-right: 790px;
+      }
+  
+      .company {
+        margin-right: 790px;
+      }
+  
+      .legal{
+        margin-right: 790px;
+      }
+      .contact {
+        margin-right: 790px;
+      }
+      
+      .contact-email {
+        right: 160px;
+        white-space: nowrap;
+        position: relative;
+      }
+  
+      .contact-number {
+        right: 180px;
+        position: relative;
+        white-space: nowrap;
+      }
+  
+      .list-unstyled {
+        display: none;
+        flex-direction: column;
+        background: white;
+        position: absolute;
+        top: 50px;
+        right: 10px;
+        border: 1px solid #ccc;
+        padding: 10px;
+        width: 150px;
+        box-shadow: 0px 4px 6px rgba(0, 0, 0, 0.1);
+      }
+    
+      .icons{
+          display: inline-block; 
+          border-top: 8px solid #000000;
+          margin-left: 370px;
+          position: relative;
+          top:-25px;
+          font-size: 40px;
+  
+      }
+
+      .footer-text {
+        display: block;
+        font-size: 11px;
+        text-align: justify;
+        font-weight: 400;
+        line-height: 15px;
+      }
+
+      .contact-text {
+        font-size: 9px;
+        margin-right: 90px;
+        text-align: justify;
+        
+      }
+      
+    }
+    
+    .list-unstyled.active {
+      display: flex;
+  
+  }  

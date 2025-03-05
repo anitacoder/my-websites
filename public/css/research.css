@@ -573,6 +573,32 @@ body {
     body {
       background-color: red;
     }
+    .img1 {
+        position: relative;
+        top: -55px !important;
+    }
+
+     .navbar-nav {
+        position: relative;
+        left: 220px !important;
+      }    
+
+    .course-text {
+        font-size: 11px !important;
+      }
+
+      .link-icons {
+        margin-left: 29px;
+      }
+
+      .contact-email {
+        margin-left: 35px;
+      }
+
+      .contact-number {
+        margin-left: 35px;
+      }
+
     .search-bar {
       display: none; 
       width: none; 
@@ -582,22 +608,47 @@ body {
     }
   }
   @media (max-width: 768px) {
-    body {
-      background-color: blue;
+    .landing-section {
+        background: linear-gradient(180.44deg, rgba(14, 126, 169, 0) -1.53%, #000000 112.25%),
+         url('/public/images/research-landing-page.jpeg') no-repeat center center/cover;
+         height: 363px;
+         width: 505.12px; 
+         margin-top: -10px;
     }
-      .landing-content {
-          max-width: 90%;
-          padding: 15px;
-      }
+   
+
+  .landing-text {
+    margin-top: 440px;
+    margin-left: -240px;
+  }
+
+  .landing-page-heading {
+    color: #ffffff !important;
+    font-size: 32px !important;
+    line-height: 72px;
+    font-weight: 700;
+    margin-top: -270px;
+    margin-left: 110px !important;
+
+  }
   
-      .landing-content h1 {
-          font-size: 24px;
-      }
-  
-      .landing-content p {
-          font-size: 14px;
-      }
-  
+  .landing-page-para {
+    color: #ffffff !important;
+    font-size: 18px !important;
+    line-height: 36px;
+    font-weight: 600;
+    position: relative;
+    left: 45px;
+    top: -35px;
+  }
+
+  .fa-arrow-right {
+    color: #F23846;
+    font-size: 30px;
+    position: relative;
+    top:5px;
+  }
+     
       .learn-more-btn {
           font-size: 16px;
           padding: 10px 20px;
@@ -617,6 +668,30 @@ body {
         font-size: 20px;
         line-height: 30px;
       }
+
+      .navbar-nav {
+        position: relative;
+        left: 260px;
+      }    
+
+      .form-control {
+        display: none;
+      }
+
+      .course-text {
+        font-size: 13px;
+      }
+
+      .course-card7 {
+        margin-top: 20px !important;
+      }
+
+      .down-paragraph {
+        font-size: 12px;
+        line-height: 20px;
+        margin-left: -10px;
+      }
+
   
       .footer {
         text-align: center;
@@ -624,4 +699,82 @@ body {
       .product-section, .company-section, .legal-section, .contact {
         margin-bottom: 20px;
       }
+
+      .link-icons {
+        position: relative;
+        right: 170px;
+      }
+  
+      .mb-3 {
+        margin: auto;
+        width: 30% !important;
+      }
+      .product {
+        margin-right: 790px;
+      }
+  
+      .company {
+        margin-right: 790px;
+      }
+  
+      .legal{
+        margin-right: 790px;
+      }
+      .contact {
+        margin-right: 790px;
+      }
+      
+      .contact-email {
+        right: 160px;
+        white-space: nowrap;
+        position: relative;
+      }
+  
+      .contact-number {
+        right: 180px;
+        position: relative;
+        white-space: nowrap;
+      }
+  
+      .list-unstyled {
+        display: none;
+        flex-direction: column;
+        background: white;
+        position: absolute;
+        top: 50px;
+        right: 10px;
+        border: 1px solid #ccc;
+        padding: 10px;
+        width: 150px;
+        box-shadow: 0px 4px 6px rgba(0, 0, 0, 0.1);
+      }
+    
+      .icons {
+          display: block; 
+          border-top: 8px solid #000000;
+          margin-left: 370px;
+          position: relative;
+          top:-25px;
+          font-size: 40px;
+  
+      }
+
+      .footer-text1 {
+        display: block !important; 
+        font-size: 13px;
+        
+      }
+
+      .contact-text1 {
+        display: block !important; 
+        font-size: 13px;
+        margin-right: 90px;
+        text-align: justify;
+        
+      }
+      
+    }
+    
+    .list-unstyled.active {
+      display: flex;
   }

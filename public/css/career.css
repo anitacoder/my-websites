@@ -294,6 +294,15 @@ body {
   .text-muted-2 {
     position: relative;
     top: 60px;
+    color:#8B8B8B;
+  }
+
+  .text-muted-3 {
+    display: none;
+  }
+
+  .down-paragraph-1 {
+    display: none;
   }
 
   .containers {
@@ -452,6 +461,10 @@ hr {
     display: none;
 }
 
+.icons {
+    display: none;
+}
+
   .footer-text {
     margin-top: 1px;
     font-weight: 400;
@@ -486,6 +499,10 @@ hr {
     line-height: 13.5px;
     color: #0D0D0D !important;
   }
+
+  .contact-text1 {
+    display: none;
+  }
   
   .contact-email a, .contact-number a {
     font-weight: 300;
@@ -498,12 +515,49 @@ hr {
     margin-top: 20px;
   }
 
+  .footer-img {
+    background-color: transparent;
+    width: 50px; /* Default size */
+    height: auto;
+  }
+
+  
+
 
 
 @media (max-width: 480px) {
     body {
       background-color: red;
     }
+
+    .card-text {
+        font-size: 17px !important;
+      }
+
+      .navbar-nav {
+        position: relative;
+        left: 220px !important;
+      }
+
+      .intership-img {
+        width: 105%; 
+      }
+
+      .application-img {
+        width: 105%;
+      }
+
+      .text-muted-3 {
+        position: relative;
+        left: -470px !important;
+      }
+
+      .footer-text {
+        position: relative;
+        left: 175px !important;
+      }
+
+
     .search-bar {
       display: none; 
       width: none; 
@@ -513,26 +567,194 @@ hr {
     }
   }
   @media (max-width: 768px) {
-    body {
-      background-color: blue;
+    .landing-section {
+        background: linear-gradient(180.44deg, rgba(14, 126, 169, 0) -1.53%, #000000 112.25%),
+        url('/public/images/careere-landing-apge.jpeg') no-repeat center center/cover;
+         height: 363px;
+         width: 505.12px; 
+         margin-top: -10px;
     }
-      .landing-content {
-          max-width: 90%;
-          padding: 15px;
+
+    .footer-img {
+        background-color: transparent;
+        width: 90px !important; /* Default size */
+        height: auto;
+        position: relative;
+        right: 400px;
       }
-  
-      .landing-content h1 {
-          font-size: 24px;
-      }
-  
-      .landing-content p {
-          font-size: 14px;
-      }
+    
   
       .learn-more-btn {
           font-size: 16px;
           padding: 10px 20px;
       }
+
+      .career-text {
+        font-size: 27px;
+        margin-top: 40px;
+      }
+
+      .down-paragraph {
+        position: relative;
+        left: -340px;
+        font-size: 22px;
+        width: 140%;
+        /* margin-right: -320px; */
+      }
+
+      .landing-text {
+        margin-top: 440px;
+        margin-left: -240px;
+      }
+    
+      .landing-page-heading {
+        color: #ffffff !important;
+        font-size: 38px !important;
+        line-height: 72px;
+        font-weight: 700;
+        margin-top: -270px;
+        margin-left: 50px;
+    
+      }
+      
+      .landing-page-para {
+        color: #ffffff !important;
+        font-size: 22px !important;
+        line-height: 36px;
+        font-weight: 600;
+        position: relative;
+        left: -25px;
+        top: -35px;
+      }
+    
+      .fa-arrow-right {
+        color: #F23846;
+        font-size: 30px;
+        position: relative;
+        top:5px;
+      }
+    
+
+      .job-card-1 {
+        margin-left: 30px;
+        width: 90%;
+      }
+
+      .job-card-2 {
+        margin-left: 30px;
+        width: 90%;
+      }
+
+      .text {
+        white-space: nowrap;
+        margin-left: 60px;
+        font-size: 25px;
+        position: relative;
+        top: 10px;
+      }
+
+      .text2 {
+        white-space: nowrap;
+        margin-left: 60px;
+        font-size: 25px;
+        position: relative;
+        top: 10px;
+      }
+      .text3 {
+        white-space: nowrap;
+        margin-left: 60px;
+        font-size: 25px;
+        position: relative;
+        top: 10px;
+      }
+      .text4 {
+        white-space: nowrap;
+        margin-left: 60px;
+        font-size: 25px;
+        position: relative;
+        top: 10px;
+      }
+      .text5 {
+        white-space: nowrap;
+        margin-left: 60px;
+        font-size: 25px;
+        position: relative;
+        top: 10px;
+      }
+      .text6{
+        white-space: nowrap;
+        margin-left: 60px;
+        font-size: 25px;
+        position: relative;
+        top: 10px;
+      }
+      .text7 {
+        white-space: nowrap;
+        margin-left: 60px;
+        font-size: 25px;
+        position: relative;
+        top: 10px;
+      }
+
+      .text-muted-2 {
+        display: none;
+      }
+
+      .text-muted-3 {
+        display: block;
+        font-size: 17px;
+        position: relative;
+        left: -450px;
+        top: 50px;
+        color: #8B8B8B;
+      }
+
+      .form-control {
+        display: none
+      }
+
+      .navbar-nav {
+        position: relative;
+        left: 260px;
+      }
+
+      .down-paragraph {
+        display: none;
+      }
+
+      .down-paragraph-1 {
+        display: block;
+        position: relative;
+        left: 10px;
+        top: 10px;
+        text-align: center;
+        color: #8B8B8B;
+      }
+
+      .location {
+        position: relative;
+        top: 10px;
+      }
+
+      .card-text {
+        font-size: 19px;
+      }
+
+      .hiring {
+        position: relative;
+        left: -460px;
+      }
+      .data-cards {
+        width: 30%;
+        text-align: center;
+      }
+
+      .apply-btn {
+        margin-left: 40px;
+        position: relative;
+        top: -1px;
+      }
+
       .Explore-img {
         height: 70vh; 
         background-size: contain; 
@@ -549,10 +771,121 @@ hr {
         line-height: 30px;
       }
   
+
       .footer {
         text-align: center;
       }
       .product-section, .company-section, .legal-section, .contact {
         margin-bottom: 20px;
       }
-  }
+
+  
+      .footer-text {
+        display: block;
+        position: relative;
+        left: 205px;
+        font-size: 9px;
+        margin-right: 190px;
+        text-align: justify;
+        width: 25%;
+        margin-top: 10px;
+        line-height: 15px;
+      }
+
+      .footer-text1{
+        display: none !important;
+      }
+      .mb-3 {
+        position: relative;
+        left: -380px;
+        width: 90% !important; /* Set a fixed width */
+        height: auto; /* Maintain aspect ratio */
+        max-width: 100%; /* Prevent overflow */
+    }
+    
+
+    .contact-text {
+      display: block;
+      position: relative;
+      left: 180px;
+      font-size: 11px;
+      margin-right: 190px;
+      text-align: justify;
+      width: 25%;
+      line-height: 20px;
+    }
+      .link-icons {
+        position: relative;
+        right: 550px;
+      }
+  
+      .mb-3 {
+        margin: auto;
+        width: 30% !important;
+      }
+      .product {
+        margin-right: 1110px;
+      }
+  
+      .company {
+        margin-right: 1110px;
+      }
+  
+      .legal{
+        margin-right: 1110px;
+      }
+      .contact {
+        margin-right: 1110px;
+      }
+      
+      .contact-email {
+        right: 520px;
+        white-space: nowrap;
+        position: relative;
+      }
+  
+      .contact-number {
+        right: 540px;
+        position: relative;
+        white-space: nowrap;
+      }
+  
+      .list-unstyled {
+        display: none;
+        flex-direction: column;
+        background: white;
+        position: absolute;
+        top: 50px;
+        right: 10px;
+        border: 1px solid #ccc;
+        padding: 10px;
+        width: 150px;
+        box-shadow: 0px 4px 6px rgba(0, 0, 0, 0.1);
+      }
+    
+      .icons {
+          display: block; 
+          border-top: 8px solid #000000;
+          margin-left: 570px;
+          position: relative;
+          top:-25px;
+          font-size: 40px;
+  
+      }
+
+      .footer-text1 {
+        display: block !important; 
+        font-size: 13px;
+        
+      }
+
+      .contact-text1 {
+        display: none !important;  
+      }
+      
+    }
+    
+    .list-unstyled.active {
+      display: flex;
+  
+  }  
